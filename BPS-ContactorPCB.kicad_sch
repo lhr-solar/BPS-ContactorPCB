@@ -342,9 +342,17 @@
 			)
 		)
 	)
+	(no_connect
+		(at 59.69 96.52)
+		(uuid "0afd3b28-ab2a-4e23-b285-f3a0313adb65")
+	)
+	(no_connect
+		(at 59.69 93.98)
+		(uuid "b807691e-0993-4005-ada5-74e689bab5ee")
+	)
 	(wire
 		(pts
-			(xy 38.1 63.5) (xy 59.69 63.5)
+			(xy 38.1 52.07) (xy 59.69 52.07)
 		)
 		(stroke
 			(width 0)
@@ -354,7 +362,17 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 68.58) (xy 59.69 68.58)
+			(xy 38.1 64.77) (xy 59.69 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3412ea11-0017-4838-ab62-d5fd99ba4867")
+	)
+	(wire
+		(pts
+			(xy 38.1 57.15) (xy 59.69 57.15)
 		)
 		(stroke
 			(width 0)
@@ -384,7 +402,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 60.96) (xy 59.69 60.96)
+			(xy 38.1 49.53) (xy 59.69 49.53)
 		)
 		(stroke
 			(width 0)
@@ -401,6 +419,16 @@
 			(type default)
 		)
 		(uuid "b45ee74f-52a5-41c3-8421-952b77bfbfef")
+	)
+	(wire
+		(pts
+			(xy 38.1 67.31) (xy 59.69 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d50e9f-b6e8-4d99-bb9c-ef08cd0a3581")
 	)
 	(wire
 		(pts
@@ -424,7 +452,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 66.04) (xy 59.69 66.04)
+			(xy 38.1 54.61) (xy 59.69 54.61)
 		)
 		(stroke
 			(width 0)
@@ -442,8 +470,8 @@
 		)
 		(uuid "fb1e87af-8ea2-457a-9493-0f1618afe7d3")
 	)
-	(label "CONTACTOR_V+"
-		(at 38.1 88.9 0)
+	(label "ESTOP"
+		(at 38.1 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -451,7 +479,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0a0d0f4a-7640-41d9-9120-baa93808ce92")
+		(uuid "030f0476-2244-440a-950d-6751353fca8e")
 	)
 	(label "AUX_2"
 		(at 38.1 82.55 0)
@@ -475,6 +503,17 @@
 		)
 		(uuid "1ed54ab3-7bc6-4680-a0dc-5e04f0a07aec")
 	)
+	(label "ESTOP"
+		(at 38.1 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "241a4410-49d3-49c5-a053-511b01e92dbb")
+	)
 	(label "AUX_1"
 		(at 38.1 80.01 0)
 		(fields_autoplaced yes)
@@ -487,7 +526,7 @@
 		(uuid "2f53d44f-3091-4de2-9113-4270998ebf6b")
 	)
 	(label "AUX_1"
-		(at 38.1 66.04 0)
+		(at 38.1 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -498,7 +537,7 @@
 		(uuid "68f39080-ef41-4656-b67e-15a3f9231c4e")
 	)
 	(label "CONTACTOR_V+"
-		(at 38.1 60.96 0)
+		(at 38.1 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -519,8 +558,19 @@
 		)
 		(uuid "b5eafd6f-d7d7-481d-86c1-c078c8ade72e")
 	)
+	(label "CONTACTOR_V+"
+		(at 38.1 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c055a22c-60d9-4acf-8df8-daf7bb9a90fc")
+	)
 	(label "AUX_2"
-		(at 38.1 68.58 0)
+		(at 38.1 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -530,8 +580,8 @@
 		)
 		(uuid "cee268df-68b8-4567-9895-5e1cee0726a0")
 	)
-	(label "CONTACTOR_V+"
-		(at 38.1 74.93 0)
+	(label "ESTOP"
+		(at 38.1 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -539,10 +589,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "db6b087c-b583-4b42-bb4f-37b890e1c6d3")
+		(uuid "efb0e8ce-6b9b-4faa-8c3b-e7bbf2e62cd5")
 	)
 	(label "CONTACTOR_V-"
-		(at 38.1 63.5 0)
+		(at 38.1 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -553,17 +603,17 @@
 		(uuid "fa80c69f-0d99-4a5e-a8ed-7f9d2e046da7")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 64.77 63.5 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 64.77 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "792097a6-fe03-4bf4-9fa1-9aca3c49eb66")
-		(property "Reference" "J1"
-			(at 67.31 63.4999 0)
+		(uuid "51f8f40e-dc47-41f1-9bf7-4b181fbe25bd")
+		(property "Reference" "J2"
+			(at 67.31 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -571,8 +621,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 67.31 66.0399 0)
+		(property "Value" "Conn_01x02"
+			(at 67.31 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -580,8 +630,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical"
-			(at 64.77 63.5 0)
+		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical"
+			(at 64.77 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -590,7 +640,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 63.5 0)
+			(at 64.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 64.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da3a6cf7-a2aa-4550-aa45-007bca1e27fc")
+		)
+		(pin "1"
+			(uuid "2c7c8258-50e5-44a1-92f5-4a4d1da57d2c")
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 64.77 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "792097a6-fe03-4bf4-9fa1-9aca3c49eb66")
+		(property "Reference" "J1"
+			(at 67.31 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 67.31 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical"
+			(at 64.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -599,7 +719,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 64.77 63.5 0)
+			(at 64.77 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -620,79 +740,9 @@
 			(uuid "01b2c1d1-5026-43c7-b8e1-d8ef09c1c8ef")
 		)
 		(instances
-			(project "BPS-ContactorSplitterPCB"
+			(project "BPS-ContactorPCB"
 				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 64.77 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2e0875a-7a57-4118-9196-7ef12e8ba624")
-		(property "Reference" "J3"
-			(at 67.31 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 67.31 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical"
-			(at 64.77 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 64.77 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ec996a5a-74b0-4013-a816-46f56a734a18")
-		)
-		(pin "1"
-			(uuid "5785e618-1bf7-4e97-a02c-d9ccb4baf61b")
-		)
-		(instances
-			(project "BPS-ContactorSplitterPCB"
-				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -708,7 +758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd7af024-5220-4cb4-88ff-eceb247d9379")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 67.31 77.4699 0)
 			(effects
 				(font
@@ -766,9 +816,85 @@
 			(uuid "10e329b2-62d9-4da4-9e3d-9ec512d23e5e")
 		)
 		(instances
-			(project "BPS-ContactorSplitterPCB"
+			(project "BPS-ContactorPCB"
 				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
-					(reference "J2")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 64.77 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8d6f20a-06f3-415f-bd68-003d73a6bc33")
+		(property "Reference" "J4"
+			(at 67.31 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 67.31 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical"
+			(at 64.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 64.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f19a53e0-76b2-47d8-8b86-784990b561b3")
+		)
+		(pin "4"
+			(uuid "835e0c67-5ac3-434c-b1c4-a2c9b86fa7f8")
+		)
+		(pin "1"
+			(uuid "b2602325-96cd-4c9d-8f47-17a455ec036e")
+		)
+		(pin "3"
+			(uuid "7f8f42c8-19d4-4c03-bdd7-24d75a34fc66")
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "J4")
 					(unit 1)
 				)
 			)
