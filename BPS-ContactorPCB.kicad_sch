@@ -2084,7 +2084,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "51f8f40e-dc47-41f1-9bf7-4b181fbe25bd")
 		(property "Reference" "J3"
 			(at 65.278 43.4339 0)
@@ -2096,7 +2095,7 @@
 			)
 		)
 		(property "Value" "DRV_ESTOP"
-			(at 65.278 45.9739 0)
+			(at 65.278 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
