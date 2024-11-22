@@ -930,6 +930,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -1218,6 +1300,387 @@
 				)
 			)
 		)
+		(symbol "utsvt-chips:PMV35EPE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 4.318 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PMV35EPE"
+				(at 10.414 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0.254 13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PMV35EPE-1539905.pdf"
+				(at 5.334 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "30 V, P-channel Trench MOSFET"
+				(at 7.366 -16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMV35EPE_0_1"
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.905) (xy -1.016 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.508 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0.508) (xy -0.508 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.286) (xy -0.508 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.778) (xy 2.032 1.778) (xy 2.032 -1.778) (xy -0.508 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 0 0.381) (xy 0 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.508) (xy 1.651 -0.381) (xy 2.413 -0.381) (xy 2.54 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -0.381) (xy 1.651 0.254) (xy 2.413 0.254) (xy 2.032 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.381 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PMV35EPE_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "utsvt-misc:Logo_Placeholder"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LOGO"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Logo_Placeholder"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Graph footprint placeholder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "graphic, symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Logo_Placeholder_0_1"
+				(arc
+					(start -1.905 0)
+					(mid 0 -1.8967)
+					(end 1.905 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy -0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.8448)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 	)
 	(wire
 		(pts
@@ -1241,13 +1704,23 @@
 	)
 	(wire
 		(pts
-			(xy 47.752 117.856) (xy 53.34 117.856)
+			(xy 47.117 158.496) (xy 52.705 158.496)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1ef752c5-0743-4a8d-87f5-d336abf889e0")
+	)
+	(wire
+		(pts
+			(xy 43.18 102.87) (xy 56.642 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2491c2d7-7a7d-4540-8233-cb9798301d10")
 	)
 	(wire
 		(pts
@@ -1261,7 +1734,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.214 128.016) (xy 68.834 128.016)
+			(xy 60.579 168.656) (xy 68.199 168.656)
 		)
 		(stroke
 			(width 0)
@@ -1321,13 +1794,23 @@
 	)
 	(wire
 		(pts
-			(xy 25.654 117.856) (xy 40.132 117.856)
+			(xy 25.019 158.496) (xy 39.497 158.496)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "57d34925-d216-458c-be64-85d7982bc415")
+	)
+	(wire
+		(pts
+			(xy 56.642 112.014) (xy 56.642 113.284)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ccc16f1-446c-4de4-88b4-6f5a977e9f05")
 	)
 	(wire
 		(pts
@@ -1341,7 +1824,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 117.856) (xy 68.58 117.856)
+			(xy 60.325 158.496) (xy 67.945 158.496)
 		)
 		(stroke
 			(width 0)
@@ -1361,6 +1844,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.744 112.268) (xy 110.744 113.284)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804ee439-5357-4c5a-9104-d9589081bc41")
+	)
+	(wire
+		(pts
 			(xy 36.068 28.194) (xy 57.658 28.194)
 		)
 		(stroke
@@ -1371,7 +1864,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.008 95.758) (xy 78.486 95.758)
+			(xy 64.135 145.415) (xy 78.613 145.415)
 		)
 		(stroke
 			(width 0)
@@ -1381,7 +1874,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.008 100.838) (xy 78.486 100.838)
+			(xy 64.135 150.495) (xy 78.613 150.495)
 		)
 		(stroke
 			(width 0)
@@ -1391,13 +1884,43 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 95.758) (xy 37.846 95.758)
+			(xy 56.642 102.87) (xy 56.642 104.394)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfce7d4-d4a1-4e0b-8d86-dba8c05e05e2")
+	)
+	(wire
+		(pts
+			(xy 25.527 145.415) (xy 37.973 145.415)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9d0170b1-0583-4c35-a1df-7f57288dc3c3")
+	)
+	(wire
+		(pts
+			(xy 88.9 123.19) (xy 88.9 126.365)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1804e71-8c51-467d-ba5d-702a9c24928d")
+	)
+	(wire
+		(pts
+			(xy 96.52 102.87) (xy 110.744 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32ea5b1-93c8-425c-96dc-895d97785bd2")
 	)
 	(wire
 		(pts
@@ -1411,13 +1934,23 @@
 	)
 	(wire
 		(pts
-			(xy 25.908 128.016) (xy 40.386 128.016)
+			(xy 25.273 168.656) (xy 39.751 168.656)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b8eef6d6-704d-46b2-82a9-8088f036ccac")
+	)
+	(wire
+		(pts
+			(xy 110.744 102.87) (xy 110.744 104.648)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c339ab3e-86c6-4e7e-b11a-958645b38dc8")
 	)
 	(wire
 		(pts
@@ -1431,7 +1964,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.466 95.758) (xy 48.768 95.758)
+			(xy 45.593 145.415) (xy 48.895 145.415)
 		)
 		(stroke
 			(width 0)
@@ -1451,7 +1984,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.006 128.016) (xy 53.594 128.016)
+			(xy 35.56 123.19) (xy 35.56 126.365)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d063abdf-a9d5-4863-b636-04e95568b3ae")
+	)
+	(wire
+		(pts
+			(xy 47.371 168.656) (xy 52.959 168.656)
 		)
 		(stroke
 			(width 0)
@@ -1491,7 +2034,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.354 100.838) (xy 48.768 100.838)
+			(xy 38.481 150.495) (xy 48.895 150.495)
 		)
 		(stroke
 			(width 0)
@@ -1509,9 +2052,19 @@
 		)
 		(uuid "fb1e87af-8ea2-457a-9493-0f1618afe7d3")
 	)
+	(text "fix resistor value"
+		(exclude_from_sim no)
+		(at 43.434 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "27dc83c0-c1fb-4414-bdcc-65201812c2f7")
+	)
 	(text "E-Stop LEDs - RED\nContactor LEDs - GREEN"
 		(exclude_from_sim no)
-		(at 46.228 143.51 0)
+		(at 45.593 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1542,7 +2095,7 @@
 		(uuid "17d6b94e-49fe-4579-a877-ee06680d3794")
 	)
 	(label "BPS_AUX_1"
-		(at 78.486 95.758 180)
+		(at 78.613 145.415 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1574,6 +2127,28 @@
 		)
 		(uuid "241a4410-49d3-49c5-a053-511b01e92dbb")
 	)
+	(label "DRV_ESTOP"
+		(at 100.076 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51ffb940-1517-4352-bace-a8997e809728")
+	)
+	(label "EXT_ESTOP"
+		(at 56.642 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52cecfd5-a425-4c00-822d-66cb52e29b3a")
+	)
 	(label "C2_SENSE"
 		(at 36.322 82.55 0)
 		(fields_autoplaced yes)
@@ -1586,7 +2161,7 @@
 		(uuid "5715fd63-fb2b-45b2-bee4-e2c75a71d423")
 	)
 	(label "C1_SENSE"
-		(at 25.4 95.758 0)
+		(at 25.527 145.415 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1597,7 +2172,7 @@
 		(uuid "5f848399-f9cf-46cd-ad04-8a8fe941a0c9")
 	)
 	(label "C1_SENSE"
-		(at 25.654 117.856 0)
+		(at 25.019 158.496 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1641,7 +2216,7 @@
 		(uuid "88467896-d9dd-4a4a-a3ca-6245edd84a50")
 	)
 	(label "BPS_AUX_2"
-		(at 78.486 100.838 180)
+		(at 78.613 150.495 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1696,7 +2271,7 @@
 		(uuid "df381152-7610-426c-aec9-c267b9e621c5")
 	)
 	(label "C2_SENSE"
-		(at 25.908 128.016 0)
+		(at 25.273 168.656 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1727,6 +2302,138 @@
 			(justify left bottom)
 		)
 		(uuid "fa80c69f-0d99-4a5e-a8ed-7f9d2e046da7")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 56.642 108.204 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "022436b2-b4ff-413f-822c-9d6c9cc31f09")
+		(property "Reference" "R5"
+			(at 60.706 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 55.372 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 58.42 108.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 56.642 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 56.642 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8581421-b33d-496c-83d9-a0f21b88e8d6")
+		)
+		(pin "2"
+			(uuid "2c6e376f-6efe-4546-ab62-1381e169691d")
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 148.082 137.414 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05e7792e-8b09-4080-bd4a-60ce5f00f27e")
+		(property "Reference" "H1"
+			(at 150.622 136.2456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 150.622 138.557 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 148.082 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.082 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.082 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
@@ -1866,8 +2573,179 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 35.56 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17855532-653b-4dd9-b54a-bba39bbd59bb")
+		(property "Reference" "D3"
+			(at 37.846 119.253 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ExtEStop"
+			(at 24.384 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 35.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" "Green"
+			(at 35.56 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "APTD2012LSURCK"
+			(at 35.56 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 35.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 35.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8b983ef-555c-46cf-afe4-e034c919c3f5")
+		)
+		(pin "2"
+			(uuid "bc91eb6a-a599-439a-a3c6-ed8e0f62bd66")
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 35.56 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "297cbf0a-f1b0-430f-bfd9-97ba2a59e0bb")
+		(property "Reference" "#PWR07"
+			(at 35.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 35.56 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 35.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7b711b9-447d-4c8b-8112-9d35c713fa7f")
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Isolator:SFH617A-1")
-		(at 56.388 98.298 0)
+		(at 56.515 147.955 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1876,23 +2754,23 @@
 		(fields_autoplaced yes)
 		(uuid "30dbf488-4283-4011-8764-b9bcc8263e0d")
 		(property "Reference" "U1"
-			(at 56.388 89.154 0)
+			(at 56.515 138.811 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SFH617A-1"
-			(at 56.388 91.694 0)
+		(property "Value" "EL3H7"
+			(at 56.515 141.351 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-			(at 51.308 103.378 0)
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 51.435 153.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1903,7 +2781,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/83740/sfh617a.pdf"
-			(at 56.388 98.298 0)
+			(at 56.515 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1913,7 +2791,7 @@
 			)
 		)
 		(property "Description" "Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4"
-			(at 56.388 98.298 0)
+			(at 56.515 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +2889,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 41.656 95.758 90)
+		(at 41.783 145.415 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2019,7 +2897,7 @@
 		(dnp no)
 		(uuid "4b2320f0-6d0e-4f26-b9ff-75357a2540d0")
 		(property "Reference" "R1"
-			(at 41.656 93.472 90)
+			(at 41.783 143.129 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,15 +2905,15 @@
 			)
 		)
 		(property "Value" "510"
-			(at 41.656 95.758 90)
+			(at 41.783 145.415 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 41.656 97.536 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 41.783 147.193 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2044,7 +2922,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.656 95.758 0)
+			(at 41.783 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,7 +2931,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 41.656 95.758 0)
+			(at 41.783 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,6 +2949,75 @@
 			(project "BPS-ContactorPCB"
 				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 35.56 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dbaa755-ba18-4afa-a260-1653cc178e07")
+		(property "Reference" "R4"
+			(at 36.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 29.972 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 33.782 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e82f00b-4322-4b23-9db7-9db7fbbc9dc3")
+		)
+		(pin "2"
+			(uuid "2c97eed6-c128-4d0b-a091-54ec12ef7690")
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2146,6 +3093,79 @@
 		)
 	)
 	(symbol
+		(lib_id "utsvt-chips:PMV35EPE")
+		(at 36.83 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55312cd8-c7cd-4a0b-b3a6-90c2ed347d13")
+		(property "Reference" "Q1"
+			(at 31.75 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMV35EPER"
+			(at 31.75 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 36.576 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PMV35EPE-1539905.pdf"
+			(at 31.496 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30 V, P-channel Trench MOSFET"
+			(at 29.464 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4a38ad48-6d3f-49b5-b834-1aab66ce0b8d")
+		)
+		(pin "1"
+			(uuid "1fdadd64-a28a-4a41-b2aa-68c13e6a7c65")
+		)
+		(pin "2"
+			(uuid "86eb059b-fdcf-4091-83b5-211a1ec70384")
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 36.322 66.04 90)
 		(unit 1)
@@ -2214,16 +3234,16 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 68.58 117.856 90)
+		(at 56.642 113.284 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6f8a4b78-5ab4-4776-8bda-e77c8957c70f")
-		(property "Reference" "#PWR010"
-			(at 73.66 117.856 0)
+		(uuid "56eba435-a3c4-4769-8fac-923ab2c025bb")
+		(property "Reference" "#PWR08"
+			(at 56.642 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,16 +3252,15 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 71.628 117.9829 90)
+			(at 56.515 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 117.856 0)
+			(at 56.642 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,7 +3269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 117.856 0)
+			(at 56.642 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,7 +3278,137 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 68.58 117.856 0)
+			(at 56.642 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f92d1bf1-7db0-4cf2-a4dc-04087435927a")
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 148.082 143.764 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d66d1ca-ad6f-44eb-8d3a-79e6de265aa1")
+		(property "Reference" "H2"
+			(at 150.622 142.5956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 150.622 144.907 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 148.082 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.082 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.082 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 67.945 158.496 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f8a4b78-5ab4-4776-8bda-e77c8957c70f")
+		(property "Reference" "#PWR010"
+			(at 73.025 158.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 70.993 158.6229 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.215 158.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.215 158.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 67.945 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,6 +3423,72 @@
 			(project "BPS-ContactorPCB"
 				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 110.744 113.284 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "731c934a-4e78-4ca4-9350-11959affe247")
+		(property "Reference" "#PWR013"
+			(at 110.744 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 110.617 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.744 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.744 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 110.744 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "012020a5-5d88-4d45-8298-cc854825663f")
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2356,8 +3571,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 110.744 108.458 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b136cd2-d5bf-49ab-8b2b-59b58a0da069")
+		(property "Reference" "R7"
+			(at 114.554 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 109.728 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 112.522 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.744 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.744 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1efa1384-1487-4f6b-a127-d2d636940eb2")
+		)
+		(pin "2"
+			(uuid "4d100532-7a81-4481-9764-1e0e9c94f8db")
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
-		(at 68.834 128.016 90)
+		(at 68.199 168.656 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2366,7 +3650,7 @@
 		(fields_autoplaced yes)
 		(uuid "85c221cd-40c8-42b8-9973-281e77ce0b57")
 		(property "Reference" "#PWR011"
-			(at 73.914 128.016 0)
+			(at 73.279 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2375,7 +3659,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 71.882 128.1429 90)
+			(at 71.247 168.7829 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2384,7 +3668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 70.104 128.016 0)
+			(at 69.469 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +3677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 70.104 128.016 0)
+			(at 69.469 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +3686,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 68.834 128.016 0)
+			(at 68.199 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,34 +3707,100 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 44.196 128.016 90)
+		(lib_id "power:+12V")
+		(at 88.9 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9a75e288-a055-409d-8332-57802361095a")
-		(property "Reference" "R3"
-			(at 45.466 125.73 90)
+		(fields_autoplaced yes)
+		(uuid "88a461ed-2cf0-454c-951f-366103d5d0e3")
+		(property "Reference" "#PWR09"
+			(at 88.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "1.5k"
-			(at 46.228 128.016 90)
+		(property "Value" "+12V"
+			(at 88.9 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 44.196 129.794 90)
+		(property "Footprint" ""
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0554fa64-6584-4839-80fe-f247a87d0119")
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 88.9 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92a1bf0a-df93-4c43-87ab-23ce353e4193")
+		(property "Reference" "D4"
+			(at 91.186 119.253 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DrvEStop"
+			(at 77.978 120.142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 88.9 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +3809,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.196 128.016 0)
+			(at 88.9 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +3818,247 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.196 128.016 0)
+			(at 88.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" "Green"
+			(at 88.9 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "APTD2012LSURCK"
+			(at 88.9 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 88.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 88.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45efdc1d-83be-40da-8ef0-9cc872d688a6")
+		)
+		(pin "2"
+			(uuid "cfb1b367-7433-49b3-b25d-955a4c0243ce")
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92c66b97-ff28-4b81-8579-b2e822f4fa0b")
+		(property "Reference" "R6"
+			(at 89.916 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 83.566 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 87.122 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c57f124-e568-4a04-b65d-3c51e34f102a")
+		)
+		(pin "2"
+			(uuid "6b8991ef-1015-41d6-b77d-84556bde15db")
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 88.9 126.365 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93127bf0-3125-436b-aa20-6116691c5ccc")
+		(property "Reference" "#PWR012"
+			(at 88.9 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 88.773 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 88.9 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17ecc0c1-c642-4baf-969a-d12c320b40e8")
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.561 168.656 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a75e288-a055-409d-8332-57802361095a")
+		(property "Reference" "R3"
+			(at 44.831 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 45.593 168.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 43.561 170.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.561 168.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.561 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,7 +4083,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 43.942 117.856 90)
+		(at 43.307 158.496 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2501,7 +4091,7 @@
 		(dnp no)
 		(uuid "a43da9e1-1f59-4a1c-8ee9-687779551908")
 		(property "Reference" "R2"
-			(at 45.212 115.57 90)
+			(at 44.577 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,7 +4100,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 45.974 117.856 90)
+			(at 45.339 158.496 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +4109,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 43.942 119.634 90)
+			(at 43.307 160.274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,7 +4118,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.942 117.856 0)
+			(at 43.307 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +4127,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.942 117.856 0)
+			(at 43.307 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +4152,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 57.15 117.856 180)
+		(at 56.515 158.496 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2570,7 +4160,7 @@
 		(dnp no)
 		(uuid "aa146794-b7a3-4455-a4ae-c2e483896d56")
 		(property "Reference" "D1"
-			(at 55.626 115.316 0)
+			(at 54.991 155.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +4169,7 @@
 			)
 		)
 		(property "Value" "Contactor 1"
-			(at 51.816 120.904 0)
+			(at 51.181 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,7 +4178,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 57.15 117.856 0)
+			(at 56.515 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,7 +4187,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 117.856 0)
+			(at 56.515 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +4196,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 117.856 0)
+			(at 56.515 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,7 +4205,7 @@
 			)
 		)
 		(property "Color" "Green"
-			(at 57.15 117.856 90)
+			(at 56.515 158.496 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,7 +4214,7 @@
 			)
 		)
 		(property "P/N" "APTD2012LCGCK"
-			(at 57.15 117.856 90)
+			(at 56.515 158.496 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2633,7 +4223,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 57.15 117.856 0)
+			(at 56.515 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,7 +4232,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 57.15 117.856 0)
+			(at 56.515 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +4257,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 38.354 100.838 270)
+		(at 38.481 150.495 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2676,7 +4266,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae90e6b0-85f8-4f9f-a69c-20cd580ef3b7")
 		(property "Reference" "#PWR06"
-			(at 33.274 100.838 0)
+			(at 33.401 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +4275,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 35.306 100.7109 90)
+			(at 35.433 150.3679 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,7 +4284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 37.084 100.838 0)
+			(at 37.211 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +4293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 37.084 100.838 0)
+			(at 37.211 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +4302,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 38.354 100.838 0)
+			(at 38.481 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,7 +4391,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 57.404 128.016 180)
+		(at 56.769 168.656 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2809,7 +4399,7 @@
 		(dnp no)
 		(uuid "ca64f3db-705e-4029-803b-ae040a126c7a")
 		(property "Reference" "D2"
-			(at 56.134 125.222 0)
+			(at 55.499 165.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,7 +4408,7 @@
 			)
 		)
 		(property "Value" "Contactor 2"
-			(at 51.816 130.81 0)
+			(at 51.181 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +4417,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 57.404 128.016 0)
+			(at 56.769 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,7 +4426,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.404 128.016 0)
+			(at 56.769 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +4435,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.404 128.016 0)
+			(at 56.769 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,7 +4444,7 @@
 			)
 		)
 		(property "Color" "Green"
-			(at 57.404 128.016 90)
+			(at 56.769 168.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2863,7 +4453,7 @@
 			)
 		)
 		(property "P/N" "APTD2012LCGCK"
-			(at 57.404 128.016 90)
+			(at 56.769 168.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +4462,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 57.404 128.016 0)
+			(at 56.769 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,7 +4471,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 57.404 128.016 0)
+			(at 56.769 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,6 +4489,69 @@
 			(project "BPS-ContactorPCB"
 				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 148.082 150.114 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb35c0a5-6440-4dd7-b178-4d1c73ae93f0")
+		(property "Reference" "H3"
+			(at 150.622 148.9456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 150.622 151.257 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 148.082 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.082 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.082 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2975,6 +4628,209 @@
 			(project "BPS-ContactorPCB"
 				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "utsvt-misc:Logo_Placeholder")
+		(at 148.082 120.904 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfb0e0fa-5fb6-41fc-8522-5eb26f3d07a4")
+		(property "Reference" "LOGO2"
+			(at 148.082 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Logo_Placeholder"
+			(at 152.146 120.9039 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Special:Hallock_Image_Tiny"
+			(at 148.082 118.999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.082 118.999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Graph footprint placeholder"
+			(at 148.082 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "LOGO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "utsvt-chips:PMV35EPE")
+		(at 90.17 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1ee1366-2645-4eec-998e-f060c72c5154")
+		(property "Reference" "Q2"
+			(at 85.09 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMV35EPER"
+			(at 85.09 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 89.916 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PMV35EPE-1539905.pdf"
+			(at 84.836 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30 V, P-channel Trench MOSFET"
+			(at 82.804 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "171614e1-d9a3-45e9-83a4-db0bbcd50d21")
+		)
+		(pin "1"
+			(uuid "ac9cb05f-8493-4021-8042-2eeb7b76e7c0")
+		)
+		(pin "2"
+			(uuid "b3307192-c3d4-4eb5-bd18-31b14203c1e7")
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 35.56 126.365 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d43810b9-f863-4ca4-857f-78a55e44e3d2")
+		(property "Reference" "#PWR02"
+			(at 35.56 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 35.433 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 35.56 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8443881-acb4-4765-ae31-cfa5a58f95d8")
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3121,6 +4977,69 @@
 			(project "BPS-ContactorPCB"
 				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 148.082 156.464 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff576d83-c9e1-42f5-94c5-24f275d10695")
+		(property "Reference" "H4"
+			(at 150.622 155.2956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 150.622 157.607 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 148.082 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.082 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.082 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BPS-ContactorPCB"
+				(path "/dfb69ff1-8ca1-40c4-96ce-fa4f0ad1558b"
+					(reference "H4")
 					(unit 1)
 				)
 			)
