@@ -2052,16 +2052,6 @@
 		)
 		(uuid "fb1e87af-8ea2-457a-9493-0f1618afe7d3")
 	)
-	(text "fix resistor value"
-		(exclude_from_sim no)
-		(at 43.434 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "27dc83c0-c1fb-4414-bdcc-65201812c2f7")
-	)
 	(text "E-Stop LEDs - RED\nContactor LEDs - GREEN"
 		(exclude_from_sim no)
 		(at 45.593 184.15 0)
@@ -2780,7 +2770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/83740/sfh617a.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/143/EVER_S_A0005045010_1-2548609.pdf"
 			(at 56.515 147.955 0)
 			(effects
 				(font
@@ -2790,7 +2780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4"
+		(property "Description" ""
 			(at 56.515 147.955 0)
 			(effects
 				(font
